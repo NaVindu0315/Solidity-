@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import pdfjs from "pdfjs-dist/es/build/pdf";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+//onst pdfjs = require("pdfjs-dist/es/build/pdf");
+
+
+async function getContent(src){
+  const doc = await pdfjs.getDocument(src).promise
+  const page =await doc.getPage(1);
+  return await page.getTextContent()
 }
+async function getItems(src)
+{
+  const content = await getContent(src)
+  const items = content.items.map(
+    (item) => {
+      console.log(item.str)
+    }
+  )
+  return items
+}
+getItems("./src/dummy.pdf");
 
-export default App;
+sfsdjfskjfnsdf
