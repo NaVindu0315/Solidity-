@@ -13,7 +13,7 @@
 // limitations under the License.
 
 import React, { useState } from 'react';
-import FileUploader from './FileUploader';
+import FileUploader from './fileuploader';
 
 const App = () => {
   const [extractedText, setExtractedText] = useState(''); // Store extracted text here
