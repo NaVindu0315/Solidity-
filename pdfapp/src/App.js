@@ -51,6 +51,14 @@ const App = () => {
     // Display extracted text (update your component logic here)
     console.log('Extracted text:', extractedText);
     // ...
+    // Extract text directly from JSON response
+//const extractedData = await response.json();
+const extractedText = extractedData.extracted_text;
+
+// Update state and display text
+setExtractedText(extractedText);
+console.log('Extracted text:', extractedText);
+// ...
   };
 
   return (
