@@ -17,6 +17,11 @@ contract Calculator{
     function multiply(uint256 num) public {
         result *= num;
     }
+    
+    function get() public view returns(uint256) 
+    {
+        return result;
+    }
 
     
 }
