@@ -6,8 +6,27 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "num",
+						"type": "uint256"
+					}
+				],
 				"name": "add",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "num",
+						"type": "uint256"
+					}
+				],
+				"name": "substract",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -41,11 +60,11 @@
 	},
 	"sources": {
 		"contracts/Calculator.sol": {
-			"keccak256": "0x3a29947eaada29da30832d1c515f5a771efa7418ac357a4f9ea19dbda17fd491",
+			"keccak256": "0x2cd2a5b87533e8e5a5926b728308e0e26ea95129a42340cf94777d4c3db9cc8f",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://b91c24184e2b870a2b797a1dee98c5c6eec446532e46ad3762878f5f202b3a3c",
-				"dweb:/ipfs/Qmeya53DUJbLLmoCPzXuLFShx2gucWcgAQcezNKoKWuqVg"
+				"bzz-raw://d30ef5cbad8922b7da9b402ef66bb062488e8675462e29346c0ce1a07afac1ac",
+				"dweb:/ipfs/QmRDUC127RAhQMx6dH7uMSnBLCs5ftpbwUBU8isjTRxhFY"
 			]
 		}
 	},

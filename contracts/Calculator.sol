@@ -9,6 +9,10 @@ contract Calculator{
     function add(uint num) public {
         result +=num;
     }
-    
+
+    function substract(uint num) public {
+        result -= num;
+    }
+
     
 }
