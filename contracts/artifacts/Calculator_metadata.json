@@ -4,7 +4,15 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [],
+		"abi": [
+			{
+				"inputs": [],
+				"name": "add",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -33,11 +41,11 @@
 	},
 	"sources": {
 		"contracts/Calculator.sol": {
-			"keccak256": "0xe6964bb2f245ed9de5fd1912906127df86597179e3f501f2509da3efb70ee2ee",
+			"keccak256": "0x3a29947eaada29da30832d1c515f5a771efa7418ac357a4f9ea19dbda17fd491",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://062c91ff72ff2cb41d0d26124e418ab2112417e738beb430bf28a6c1c589f940",
-				"dweb:/ipfs/QmSJDCY3A1FpgVUbnntZrUYw7hBzasQNzDmJL4q9SQbsS6"
+				"bzz-raw://b91c24184e2b870a2b797a1dee98c5c6eec446532e46ad3762878f5f202b3a3c",
+				"dweb:/ipfs/Qmeya53DUJbLLmoCPzXuLFShx2gucWcgAQcezNKoKWuqVg"
 			]
 		}
 	},
