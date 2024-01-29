@@ -26,6 +26,19 @@
 						"type": "uint256"
 					}
 				],
+				"name": "multiply",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "num",
+						"type": "uint256"
+					}
+				],
 				"name": "substract",
 				"outputs": [],
 				"stateMutability": "nonpayable",
@@ -60,11 +73,11 @@
 	},
 	"sources": {
 		"contracts/Calculator.sol": {
-			"keccak256": "0x2cd2a5b87533e8e5a5926b728308e0e26ea95129a42340cf94777d4c3db9cc8f",
+			"keccak256": "0x9e61487fd29de98a38b8dc454dddfa9a82c627a18c32177a6f25390fa60f7d94",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://d30ef5cbad8922b7da9b402ef66bb062488e8675462e29346c0ce1a07afac1ac",
-				"dweb:/ipfs/QmRDUC127RAhQMx6dH7uMSnBLCs5ftpbwUBU8isjTRxhFY"
+				"bzz-raw://95393946eee4ea1afbf32f08e2e1a1242de2e46057376c248e2a89e7587118d4",
+				"dweb:/ipfs/QmQPoc483u8zBp5MUrVaLcUsFAAJV52ZWCngn6AeXAR3wv"
 			]
 		}
 	},
