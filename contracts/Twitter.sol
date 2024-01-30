@@ -9,7 +9,7 @@ contract Twitter
     //CODE
     mapping (address => string ) public tweets
     {
-        function createTweet()
+        function createTweet(string _tweet) 
     }
 
 
