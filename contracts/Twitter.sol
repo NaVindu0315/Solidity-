@@ -2,15 +2,16 @@
 
 pragma solidity ^0.8.22;
 
-contract Twitter
-{
+contract Twitter {
 
 
     //CODE
-    mapping (address => string ) public tweets
-    {
-        function createTweet(string _tweet) 
-    }
+    mapping (address => string ) public tweets;
+    
+        function createTweet(string memory _tweet) public {
+            tweets[msg.sender] =_tweet;
+        }
+    
 
 
 

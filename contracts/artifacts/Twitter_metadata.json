@@ -4,7 +4,40 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [],
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_tweet",
+						"type": "string"
+					}
+				],
+				"name": "createTweet",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "tweets",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -33,11 +66,11 @@
 	},
 	"sources": {
 		"contracts/Twitter.sol": {
-			"keccak256": "0x6a6cafa3799eb16ad28a31157c8e802f11d951dc06648e0775ef99cc0be56eb7",
+			"keccak256": "0x758a485c37f078fa0869155ac3cc961c3a64d648a18093c8f63179b0834df41f",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://8311bc10800ca0d8d7529b46038a2bce5c4f12a61888980f538386f45e2724f1",
-				"dweb:/ipfs/QmXEXrkTqWY8M9XBUcWQDLM7bEkKWVFq1o8DmuUfxM9VLX"
+				"bzz-raw://cd2c2424a461e70de3301be39637f426074858a6151f53c44c1aee4f1c80af0e",
+				"dweb:/ipfs/QmVdXTdUNdRYs44fWZdM1r5MYQQan3qhUnpgDFqGaAMdbo"
 			]
 		}
 	},
