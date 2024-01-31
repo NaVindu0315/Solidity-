@@ -20,9 +20,12 @@ contract Twitter {
             return tweets[_owner][_i];
 
         }
-        //to get all the tweets
         
-    
+        //to get all the tweets
+        function getalltweets(address _owner) public view returns (string[] memory)
+        {
+            return tweets[_owner];
+        }    
 
 
 

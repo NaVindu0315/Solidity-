@@ -46,6 +46,25 @@
 				"inputs": [
 					{
 						"internalType": "address",
+						"name": "_owner",
+						"type": "address"
+					}
+				],
+				"name": "getalltweets",
+				"outputs": [
+					{
+						"internalType": "string[]",
+						"name": "",
+						"type": "string[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
 						"name": "",
 						"type": "address"
 					},
@@ -95,11 +114,11 @@
 	},
 	"sources": {
 		"contracts/Twitter.sol": {
-			"keccak256": "0xee2fdf7964b17454bbcf5fdcde4b7cfcffcb244675137a5abb874898c3f26faa",
+			"keccak256": "0xcad05d157cb2f4fe1b5c771732a1eaaa0a92332e5f2e153bebc347093c7fca61",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://9074d48aca2c821e7a701c8d0e29579cb56003a54d67094a99cf32b3ce1e3875",
-				"dweb:/ipfs/QmeVsEPPMnLdhXRUfTG8FPSgrBMbegdEKmmLPoDJ2z5sko"
+				"bzz-raw://abddf30c962885bf36bf809eda9cdc6f96915d1e5f1e32d3b738a09ba9f77095",
+				"dweb:/ipfs/QmQdTETQgR3eSsEqsntEDXXJKf1nannhKjJuiQKWQZscir"
 			]
 		}
 	},
