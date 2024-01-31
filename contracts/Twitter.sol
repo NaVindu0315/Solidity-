@@ -15,11 +15,12 @@ contract Twitter {
         //.push(_tweeet) added
         //uint i added in get tweet function
 
-
+    //to get the specific tweet
         function getTweet(address _owner,uint _i) public view returns (string memory){
             return tweets[_owner][_i];
 
         }
+        //to get all the tweets
         
     
 
