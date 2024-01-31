@@ -5,7 +5,7 @@ pragma solidity ^0.8.22;
 contract Twitter {
 
     ///struct for the tweets
-    struct tweets{
+    struct Tweet{
         address author;
         string content;
         uint256 timestamp;
@@ -39,13 +39,13 @@ contract Twitter {
         //uint i added in get tweet function
 
     //to get the specific tweet
-        function getTweet(address _owner,uint _i) public view returns (string memory){
+        function getTweet(address _owner,uint _i) public view returns (Tweet memory){
             return tweets[_owner][_i];
 
         }
         
         //to get all the tweets
-        function getalltweets(address _owner) public view returns (string[] memory)
+        function getalltweets(address _owner) public view returns (Tweet[] memory)
         {
             return tweets[_owner];
         }    
