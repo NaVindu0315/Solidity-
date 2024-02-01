@@ -21,7 +21,9 @@ contract Twitter {
 
     
         function createTweet(string memory _tweet) public {
-
+                ///  condintional 
+                /// legth <=280
+                require(bytes(_tweet).length<=280)
 
             Tweet memory newTweet = Tweet({
                 author : msg.sender,
