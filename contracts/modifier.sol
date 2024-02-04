@@ -21,6 +21,17 @@ contract PausableToken
         
         _;
     }
+    ///new modifier
+    modifier  notPaused()
+    {
+        require(paused == false,"the contract is paused");
+
+        _;
+    }
+
+    ///new modifier end
+
+
 
     function pause()  public onlyOwner
     {

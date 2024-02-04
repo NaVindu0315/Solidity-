@@ -95,7 +95,11 @@
 		},
 		"userdoc": {
 			"kind": "user",
-			"methods": {},
+			"methods": {
+				"pause()": {
+					"notice": "new modifier end"
+				}
+			},
 			"version": 1
 		}
 	},
@@ -116,11 +120,11 @@
 	},
 	"sources": {
 		"contracts/modifier.sol": {
-			"keccak256": "0x5e2eba194bbee5807228ef096d7131865926b5c139893e1228058faffc3c4e4e",
+			"keccak256": "0xcd1d9304311dfbaee43dcdda18226a3b74877e10eb86b2637ea0e99a13e69649",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://0c585eb4bb75e2db18257590a1c09b26a3309fb3d0d6bc0c302f1f8e91f519c1",
-				"dweb:/ipfs/QmcSj1hGQhhXyyY2AT3Y1DFPnZ9CHHZUVjKTubSaBSRcYY"
+				"bzz-raw://7b0e5975aebc0349c9d398aed699f58fd4c524f57ac6d59b2ac91a4892385b2f",
+				"dweb:/ipfs/QmURrUVcQcieymEZRcm9BqQUcoa8J3knjjk1ZpxHAdBcqi"
 			]
 		}
 	},
