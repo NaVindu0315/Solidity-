@@ -15,4 +15,9 @@ contract PausableToken
         balances[owner] = 1000;
     }
 
+    modifier   onlyOwner()
+    {
+        _;
+    }
+
 }
