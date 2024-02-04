@@ -32,6 +32,15 @@ contract PausableToken
         paused = false;
     }
 
+    //function transfer
+
+    function transfer(address to, uint amount) public {
+        require(balances[msg.sender]>=amount,"Insufficient balance");
+
+        balances[msg.sender]-= amount;
+        balances[to] += amount;
+    }
+
 
 
 }

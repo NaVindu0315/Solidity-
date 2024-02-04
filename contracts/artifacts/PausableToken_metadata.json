@@ -63,6 +63,24 @@
 				"type": "function"
 			},
 			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "transfer",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "unpause",
 				"outputs": [],
@@ -98,11 +116,11 @@
 	},
 	"sources": {
 		"contracts/modifier.sol": {
-			"keccak256": "0x805b52d425bd05c5c233694d2c0aea82544ff3967a1e9b9210061e0e969f45e7",
+			"keccak256": "0x5e2eba194bbee5807228ef096d7131865926b5c139893e1228058faffc3c4e4e",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://98db616e0cefd93907a6bc7459d9e9dbba847b36f72fc458185289c59ce12ca1",
-				"dweb:/ipfs/QmYTtYvBpPxnMCWZpMaNL4NysLXobMm1JKYdTBRmXNKjvt"
+				"bzz-raw://0c585eb4bb75e2db18257590a1c09b26a3309fb3d0d6bc0c302f1f8e91f519c1",
+				"dweb:/ipfs/QmcSj1hGQhhXyyY2AT3Y1DFPnZ9CHHZUVjKTubSaBSRcYY"
 			]
 		}
 	},
