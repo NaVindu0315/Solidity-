@@ -22,6 +22,11 @@ contract PausableToken
         _;
     }
 
+    function pause()  public onlyOwner
+    {
+        paused = true;
+    }
+
     function unpause() public onlyOwner
     {
         paused = false;

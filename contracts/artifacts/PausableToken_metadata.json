@@ -44,6 +44,13 @@
 			},
 			{
 				"inputs": [],
+				"name": "pause",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "paused",
 				"outputs": [
 					{
@@ -91,11 +98,11 @@
 	},
 	"sources": {
 		"contracts/modifier.sol": {
-			"keccak256": "0x5af19f3f49b5b88790a99e6a2876ccb43da1de184eaff12a7cd046972ee099cc",
+			"keccak256": "0x805b52d425bd05c5c233694d2c0aea82544ff3967a1e9b9210061e0e969f45e7",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://4ec26b5c20e7de87ffd92432edb8ae2c83e4ecd949d52464eb244215f35c131f",
-				"dweb:/ipfs/Qmb3u8uZ4Lf43kd1ujCedkbzkFQ325Pqe1Gz156u21XN4X"
+				"bzz-raw://98db616e0cefd93907a6bc7459d9e9dbba847b36f72fc458185289c59ce12ca1",
+				"dweb:/ipfs/QmYTtYvBpPxnMCWZpMaNL4NysLXobMm1JKYdTBRmXNKjvt"
 			]
 		}
 	},
