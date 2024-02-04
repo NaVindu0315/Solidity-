@@ -17,7 +17,11 @@ contract PausableToken
 
     modifier   onlyOwner()
     {
+        require (msg.sender == owner , " you are not the owner");
+        
         _;
     }
+
+    
 
 }
