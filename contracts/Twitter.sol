@@ -43,8 +43,8 @@ contract Twitter {
         //uint i added in get tweet function
 
     //to get the specific tweet
-        function getTweet(address _owner,uint _i) public view returns (Tweet memory){
-            return tweets[_owner][_i];
+        function getTweet(uint _i) public view returns (Tweet memory){
+            return tweets[msg.sender][_i];
 
         }
         
