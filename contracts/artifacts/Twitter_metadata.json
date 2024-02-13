@@ -142,6 +142,24 @@
 				"type": "function"
 			},
 			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "author",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "id",
+						"type": "uint256"
+					}
+				],
+				"name": "likeTweet",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "owner",
 				"outputs": [
@@ -234,11 +252,11 @@
 	},
 	"sources": {
 		"contracts/Twitter.sol": {
-			"keccak256": "0x6b7be5e2a095eeb5839f786eb2fec806552d9c737626f9efd0f637bb2ada1866",
+			"keccak256": "0x74ccc05571600fc0c49dba9032d7bcd11c110141518f6897fa9561ff3c855862",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://eae8dd3cc53099d92cd11acb14c85f7b61ef8384c64de94056c24fdd9b0a6cd7",
-				"dweb:/ipfs/QmbG2RD9EJeX2jqSsPdA1AcPrHaYGtrFcmd2cHykUkwApM"
+				"bzz-raw://8acfb87abe740f9741c713c2ba20bfe38503d25f6cdd31bf8c0b917230a9a488",
+				"dweb:/ipfs/QmdCP7qmdaz3KEzPaApVR5xtc9vjDyrHiBherPw2UDTku2"
 			]
 		}
 	},

@@ -64,9 +64,10 @@ contract Twitter {
         //uint i added in get tweet function
 
         //adding like function
-        function likeTweet external 
+        function likeTweet(address author, uint256 id) external 
         {
-
+            tweets[author][id].likes++;
+            
         }
 
     //to get the specific tweet
