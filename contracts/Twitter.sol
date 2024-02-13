@@ -20,6 +20,14 @@ contract Twitter {
     //CODE
     mapping (address => Tweet[] ) public tweets;
 
+    address public owner;
+
+    ///creating the constructor
+    constructor()
+    {
+        
+    }
+
     //creating a function to chnge tweet lenght
     function changeTweetLength(uint16 newTweetLength) public {
         MAX_TWEET_Length = newTweetLength;
