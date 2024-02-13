@@ -35,7 +35,7 @@ contract Twitter {
     }
 
     //creating a function to chnge tweet lenght
-    function changeTweetLength(uint16 newTweetLength) public {
+    function changeTweetLength(uint16 newTweetLength) public onlyOwner{
         MAX_TWEET_Length = newTweetLength;
     }
 
