@@ -18,5 +18,9 @@ contract EventExample
         newUser.username = _username;
         newUser.age = _age;
 
+
+        //emitting 
+        emit NewUserRegistered(msg.sender, _username);
+
     }
 }
