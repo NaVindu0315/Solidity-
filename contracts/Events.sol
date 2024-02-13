@@ -4,7 +4,7 @@ pragma solidity ^0.8.22;
 
 contract EventExample
 {
-    event NewUserRegistered();
+    event NewUserRegistered(address indexed user, string username );
 
     struct User
     {
