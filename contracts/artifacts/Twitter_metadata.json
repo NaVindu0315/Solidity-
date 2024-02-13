@@ -62,6 +62,11 @@
 					{
 						"components": [
 							{
+								"internalType": "uint256",
+								"name": "id",
+								"type": "uint256"
+							},
+							{
 								"internalType": "address",
 								"name": "author",
 								"type": "address"
@@ -102,6 +107,11 @@
 				"outputs": [
 					{
 						"components": [
+							{
+								"internalType": "uint256",
+								"name": "id",
+								"type": "uint256"
+							},
 							{
 								"internalType": "address",
 								"name": "author",
@@ -159,6 +169,11 @@
 				],
 				"name": "tweets",
 				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "id",
+						"type": "uint256"
+					},
 					{
 						"internalType": "address",
 						"name": "author",
@@ -219,11 +234,11 @@
 	},
 	"sources": {
 		"contracts/Twitter.sol": {
-			"keccak256": "0x7f7a2b7422f411ea0af92822e6a76579630139c576c462247a7edb46ba288a14",
+			"keccak256": "0x6b7be5e2a095eeb5839f786eb2fec806552d9c737626f9efd0f637bb2ada1866",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://ebbce027a9f588fd69449e89b88d6326a1a81f222ec3b6e83d23ec2bc4bcd6e3",
-				"dweb:/ipfs/QmUgnNLTRqDG7Fex3JXqSbBkS7kENfknXxi6HuJ2jA78tU"
+				"bzz-raw://eae8dd3cc53099d92cd11acb14c85f7b61ef8384c64de94056c24fdd9b0a6cd7",
+				"dweb:/ipfs/QmbG2RD9EJeX2jqSsPdA1AcPrHaYGtrFcmd2cHykUkwApM"
 			]
 		}
 	},

@@ -8,6 +8,7 @@ contract Twitter {
 
     ///struct for the tweets
     struct Tweet{
+        uint256 id;
         address author;
         string content;
         uint256 timestamp;
@@ -47,6 +48,7 @@ contract Twitter {
                 require(bytes(_tweet).length<=MAX_TWEET_Length,"Tweet is too Long");
 
             Tweet memory newTweet = Tweet({
+                id:tweets[msg.sender].length,
                 author : msg.sender,
                 content : _tweet,
                 timestamp : block.timestamp,
