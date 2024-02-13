@@ -11,4 +11,12 @@ contract EventExample
         string username;
         uint256 age;
     }
+    mapping (address =>User) public users;
+    
+    function registerUser(string memory _username, uint256 _age) public {
+        User storage newUser  = users[msg.sender];
+        newUser.username = _username;
+        newUser.age = _age;
+
+    }
 }
