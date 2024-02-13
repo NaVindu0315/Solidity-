@@ -6,6 +6,13 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [],
+				"name": "changeTweetLength",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "string",
@@ -172,11 +179,11 @@
 	},
 	"sources": {
 		"contracts/Twitter.sol": {
-			"keccak256": "0xef0d0a51755dfef28a3eed57261fd47130e3b315cff42f5eed8f8d507a172ebb",
+			"keccak256": "0xa212073498ef27c9537ce8fe7d28a037b81059d71751ccf536aec04f03c18629",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://925fac5ce19e6e29b3461b5550c88648d24655d9a5f004db79fdeff04ab8cdf2",
-				"dweb:/ipfs/QmbBQeiPnUm3wowfVBhmYRxGUeZ2MqXwN5YHZtwtJoZn9D"
+				"bzz-raw://5bc7de20c66363f4f6c7f6e98a622d2e749f99ab6f32a50702e76337c8dd9a76",
+				"dweb:/ipfs/QmdeYuSNinEsQAw5XSULa4z1yN1p73YDc7Pds41DLcThVy"
 			]
 		}
 	},
