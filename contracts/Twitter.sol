@@ -25,7 +25,13 @@ contract Twitter {
     ///creating the constructor
     constructor()
     {
-        
+        owner  = msg.sender;
+    }
+    ///modifier
+    modifier onlyOwner()
+    {
+        require(msg.sender ==owner,"YOU ARE NOT THE OWNER"); 
+        _;   
     }
 
     //creating a function to chnge tweet lenght
