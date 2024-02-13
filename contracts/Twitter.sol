@@ -4,7 +4,7 @@ pragma solidity ^0.8.22;
 
 contract Twitter {
 
-    uint16 constant MAX_TWEET_Length = 280;
+    uint16 public  MAX_TWEET_Length = 280;
 
     ///struct for the tweets
     struct Tweet{
@@ -21,8 +21,8 @@ contract Twitter {
     mapping (address => Tweet[] ) public tweets;
 
     //creating a function to chnge tweet lenght
-    function changeTweetLength() public {
-        
+    function changeTweetLength(uint16 newTweetLength) public {
+        MAX_TWEET_Length = newTweetLength;
     }
 
 
