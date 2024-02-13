@@ -71,6 +71,13 @@ contract Twitter {
             
         }
 
+        ///function to unlike
+        function unlikeTweet(address author,uint256 id) external 
+        {
+            require(tweets[author][id].id ==id,"Tweet Does not exist");
+            tweets[author][id].likes--;
+        }
+
     //to get the specific tweet
         function getTweet(uint _i) public view returns (Tweet memory){
             return tweets[msg.sender][_i];

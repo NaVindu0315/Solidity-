@@ -215,6 +215,24 @@
 				],
 				"stateMutability": "view",
 				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "author",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "id",
+						"type": "uint256"
+					}
+				],
+				"name": "unlikeTweet",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -230,6 +248,9 @@
 				},
 				"tweets(address,uint256)": {
 					"notice": "end struct"
+				},
+				"unlikeTweet(address,uint256)": {
+					"notice": "function to unlike"
 				}
 			},
 			"version": 1
@@ -252,11 +273,11 @@
 	},
 	"sources": {
 		"contracts/Twitter.sol": {
-			"keccak256": "0xcd62627005012bdefb677b8f7ca26997690dc9bf52fa36855795efbafbd778ef",
+			"keccak256": "0xf066ec0a1b027e8258aaabfefc052c012615a00adaedb71f4456507bfbabbd48",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://daed477c5a2538d3cfc026bb31c729a01a4b211a0d889ad382c2c1d709068b93",
-				"dweb:/ipfs/QmRB68jPJwHiUjx4oKfzfgNbuNt1toQGWhg8sArbJjEGxK"
+				"bzz-raw://3b5c0475d294943dd2bba6cff9a7ae1f20b836be2a1dfb95c0253a78d3c7536f",
+				"dweb:/ipfs/QmQvC926LhqMr1tv8E8YzLxkCiHfyPxUm3Y1WVFo5FBfDp"
 			]
 		}
 	},
