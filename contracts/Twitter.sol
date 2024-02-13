@@ -20,6 +20,11 @@ contract Twitter {
     //CODE
     mapping (address => Tweet[] ) public tweets;
 
+    //creating a function to chnge tweet lenght
+    function changeTweetLength() public {
+        
+    }
+
 
     
         function createTweet(string memory _tweet) public {
