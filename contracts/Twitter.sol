@@ -63,6 +63,12 @@ contract Twitter {
         //.push(_tweeet) added
         //uint i added in get tweet function
 
+        //adding like function
+        function likeTweet external 
+        {
+
+        }
+
     //to get the specific tweet
         function getTweet(uint _i) public view returns (Tweet memory){
             return tweets[msg.sender][_i];
