@@ -66,6 +66,7 @@ contract Twitter {
         //adding like function
         function likeTweet(address author, uint256 id) external 
         {
+            require(tweets[author][id].id ==id,"Tweet Does not exist");
             tweets[author][id].likes++;
             
         }
