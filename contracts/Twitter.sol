@@ -27,7 +27,7 @@ contract Twitter {
     event TweetCreated(uint256 id,address author, string content, uint256 timestamp);
     event TweetLiked(address liker,address tweetAuthoer, uint256 tweetid, uint256 newLikeCount);
     //unliked
-     event TweetUnLiked(address liker,address tweetAuthoer, uint256 tweetid, uint256 newLikeCount);
+     event TweetUnLiked(address unliker,address tweetAuthoer, uint256 tweetid, uint256 newLikeCount);
 
     ///creating the constructor
     constructor()
@@ -87,6 +87,8 @@ contract Twitter {
             require(tweets[author][id].id ==id,"Tweet Does not exist");
             require(tweets[author][id].likes>0,"tweet has no likes");
             tweets[author][id].likes--;
+
+             emit TweetUnLiked(msg.sender, author, id, tweets[author][id].likes);
         }
 
     //to get the specific tweet
