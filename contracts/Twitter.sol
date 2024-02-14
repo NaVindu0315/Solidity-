@@ -61,6 +61,8 @@ contract Twitter {
 
 
             tweets[msg.sender].push(newTweet);
+
+            emit TweetCreated(newTweet.id, newTweet.author, newTweet.content, newTweet.timestamp);
         }
         //to store tweets in array 
         //.push(_tweeet) added
