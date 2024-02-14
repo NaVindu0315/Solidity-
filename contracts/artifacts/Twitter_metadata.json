@@ -42,6 +42,37 @@
 				"type": "event"
 			},
 			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "liker",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "tweetAuthoer",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "tweetid",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "newLikeCount",
+						"type": "uint256"
+					}
+				],
+				"name": "TweetLiked",
+				"type": "event"
+			},
+			{
 				"inputs": [],
 				"name": "MAX_TWEET_Length",
 				"outputs": [
@@ -304,11 +335,11 @@
 	},
 	"sources": {
 		"contracts/Twitter.sol": {
-			"keccak256": "0x472cf451128ae52f7744abd713ae83a06e4b6c49420a0bbb16de30cf1eb26ddc",
+			"keccak256": "0xf86a53a84a10c1dc37a991ccc179c15d8094af50eb5f1d14ea1c32e9f14a39fe",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://587d8d3ea253d35e012adc9fb6f5f314ced3926f3bf17edb5e81bfff40b2c709",
-				"dweb:/ipfs/Qmb7MZgSK6QnBA4tf1z2K6AdeHyXorqf4dDwSiez1Khu5L"
+				"bzz-raw://08e64e30e97946800a3b209e3573dfddefdcea892cb160df8b50571153bcec83",
+				"dweb:/ipfs/Qmaf6Jm5xnFJuLLuPxyrQAppfAZDjnj1akZonqPyVs53bp"
 			]
 		}
 	},

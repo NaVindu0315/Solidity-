@@ -25,6 +25,7 @@ contract Twitter {
 
     //creating the event
     event TweetCreated(uint256 id,address author, string content, uint256 timestamp);
+    event TweetLiked(address liker,address tweetAuthoer, uint256 tweetid, uint256 newLikeCount);
 
     ///creating the constructor
     constructor()
