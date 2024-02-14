@@ -23,6 +23,9 @@ contract Twitter {
 
     address public owner;
 
+    //creating the event
+    event TweetCreated(uint256 id,address author, string content, uint256 timestamp);
+
     ///creating the constructor
     constructor()
     {
