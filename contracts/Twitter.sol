@@ -74,6 +74,8 @@ contract Twitter {
         {
             require(tweets[author][id].id ==id,"Tweet Does not exist");
             tweets[author][id].likes++;
+
+            emit TweetLiked(msg.sender, author, id, tweets[author][id].likes);
             
         }
 
