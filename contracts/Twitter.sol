@@ -1,8 +1,8 @@
 //SPDX-License-Identifier: MIT
-//tp dp :
+
 pragma solidity ^0.8.22;
 
-contract Twitter {
+contract Twitter2 {
 
     uint16 public  MAX_TWEET_Length = 280;
 
