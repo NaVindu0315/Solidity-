@@ -15,4 +15,11 @@ contract PKCoin{
     {
         return balance;
     }
+
+    function depositBalance(int amt) public{
+        balance = balance + amt;
+    }
+     function withdrawBalance(int amt) public{
+        balance = balance - amt;
+    }
 }
