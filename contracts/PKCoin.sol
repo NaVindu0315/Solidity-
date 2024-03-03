@@ -6,7 +6,7 @@ contract PKCoin{
 
     int balance;
 
-    constructor() public {
+    constructor()  {
         balance = 0;
 
     }
