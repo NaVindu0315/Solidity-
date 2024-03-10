@@ -20,6 +20,11 @@ contract basicDapp{
         balance -=amount;
         
     }
+    
+    function getbalance () public view returns (uint)
+    {
+        return balance;
+    }
 
 }
 
