@@ -8,6 +8,11 @@ contract basicDapp{
 
     constructor(){
         balance =0;
+
+    }
+
+    function sendBalance (uint amount) public {
+        balance +=amount;
         
     }
 
