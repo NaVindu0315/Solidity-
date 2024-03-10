@@ -17,7 +17,7 @@ contract basicDapp{
     }
 
     function withdrawBalance (uint amount) public {
-        require(balance < amount , "not enough balance");
+        require(balance > amount , "not enough balance");
         balance -=amount;
         
     }

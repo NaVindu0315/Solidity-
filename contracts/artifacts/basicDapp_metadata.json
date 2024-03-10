@@ -11,6 +11,19 @@
 				"type": "constructor"
 			},
 			{
+				"inputs": [],
+				"name": "getbalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "uint256",
@@ -65,11 +78,11 @@
 	},
 	"sources": {
 		"contracts/basic_dapp.sol": {
-			"keccak256": "0xfcb3345a41b96f6b49e9993a3e073c8757e992c5bb182a32211fd0ccc2088638",
+			"keccak256": "0xbd02e5b9ac019373ff7a04f70ccc70215370f91ba2d17f02a63976ec56a4e939",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://82bd2a6a68026d4fd9c9b5fe4e3c09aa511977b2c02044ce2e49f4314a9ba1a6",
-				"dweb:/ipfs/QmXnwZAK24RLSAQqRCYqaDTqpVzizTVX97Key5ZPPuc8rn"
+				"bzz-raw://9a24730afdbcd32cabe99651892d1fce85046c808695f1cda8bf6447c2217102",
+				"dweb:/ipfs/QmQeMvFtLkJZm8hW77E2ZtX5DWcSh9R7m9cgzziQVHqr9L"
 			]
 		}
 	},
