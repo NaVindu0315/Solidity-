@@ -13,6 +13,11 @@ contract basicDapp{
 
     function sendBalance (uint amount) public {
         balance +=amount;
+
+    }
+
+    function withdrawBalance (uint amount) public {
+        balance -=amount;
         
     }
 
