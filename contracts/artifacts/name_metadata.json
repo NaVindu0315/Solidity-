@@ -32,7 +32,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/name.sol": "working"
+			"contracts/name.sol": "name"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -47,11 +47,11 @@
 	},
 	"sources": {
 		"contracts/name.sol": {
-			"keccak256": "0x263c269abf28b9d7f9aec08dac6998453056d1a2f1bc48d51ae579ef75739255",
+			"keccak256": "0xf9ca5ff59ff7e3a359a4a0e2d5cf5e2a53e1845bcccf89549718280ec747330e",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://01d6124edec9eab94279a278bb9efd569927411e111ee65994168559d3858774",
-				"dweb:/ipfs/QmfCf453KjtS7ko9MsGjBLLDWtt3ShJodXvRLnRJBGCXRa"
+				"bzz-raw://fb6ba08d57324746a5652f2aef59515157aeeaffcf88251d190f36e347e8c37e",
+				"dweb:/ipfs/QmXUzmSqsNZc6fg3cgkYxV7vi3bNxUND2ZVMLrizN6z1uG"
 			]
 		}
 	},

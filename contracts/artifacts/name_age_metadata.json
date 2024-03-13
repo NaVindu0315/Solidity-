@@ -7,6 +7,19 @@
 		"abi": [
 			{
 				"inputs": [],
+				"name": "getdob",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "getname",
 				"outputs": [
 					{
@@ -32,7 +45,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/name.sol": "working"
+			"contracts/name_age.sol": "name_age"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -46,12 +59,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/name.sol": {
-			"keccak256": "0x263c269abf28b9d7f9aec08dac6998453056d1a2f1bc48d51ae579ef75739255",
+		"contracts/name_age.sol": {
+			"keccak256": "0x32c35dd6779e94d70d9dd3e495f4a39e0d4cf1c0e97dc5c21a174250f49a95b7",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://01d6124edec9eab94279a278bb9efd569927411e111ee65994168559d3858774",
-				"dweb:/ipfs/QmfCf453KjtS7ko9MsGjBLLDWtt3ShJodXvRLnRJBGCXRa"
+				"bzz-raw://0d67b47e2db55b2f4a1b5bef05f0dbd96d6ccc2b7b4b8e76b31824b59d979d62",
+				"dweb:/ipfs/QmQQK6FgE88hUqKFGRiGa9aYou6ripKi1JXXEmE4NuDfHt"
 			]
 		}
 	},
